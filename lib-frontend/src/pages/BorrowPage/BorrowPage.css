@@ -1,0 +1,104 @@
+.banner-borrow {
+    width: 100%;
+    min-height: 70vh;
+    background-image: url(../../assets/banner2.png);
+    background-size: cover;
+    background-position: 69%;
+}
+
+.banner-text-borrow {
+    padding-top: 250px;
+    text-align: center;
+    color: #fff;
+}
+
+.banner-text-borrow h2 {
+    text-transform: capitalize;
+    font-size: 48px;
+}
+
+.banner-text-borrow p {
+    padding: 0 5px;
+}
+
+.book-card {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.card-text span {
+    color: #6c757d;
+    margin-bottom: 5px;
+}
+
+
+.book-card .btn {
+    color: #fff;
+    border-radius: 4px;
+}
+
+.card-title a {
+    color: #000;
+    text-decoration: none;
+}
+
+
+.book-card .btn-favorite {
+    background-color: #829E8E;
+    border-color: #829E8E;
+}
+
+
+.book-card .btn-borrow {
+    background-color: #fff;
+    border-color: #829E8E;
+    color: #000;
+}
+
+.book-card .btn-favorite:hover {
+    background-color: #fff;
+    border-color: #829E8E;
+}
+
+.book-card .btn-borrow:hover {
+    background-color: #829E8E;
+    color: #fff;
+}
+
+
+@media screen and (max-width:992px) {
+    .banner-text-borrow h2 {
+        font-size: 36px;
+    }
+
+    .banner-text-borrow p {
+        font-size: 12px;
+    }
+
+
+    .book-card .card-body span {
+        color: #fff;
+    }
+
+    .card-text {
+        font-size: 12px;
+        margin-bottom: 2px;
+    }
+    .card-btn-borrow {
+        margin-top: 10px;
+    }
+}
+
+
+@media screen and (max-width:766px) {
+    .banner-text-borrow h2 {
+        font-size: 24px;
+    }
+
+    .banner-text-borrow p {
+        font-size: 12px;
+    }
+}

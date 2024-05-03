@@ -1,0 +1,249 @@
+.homepage {
+  padding: 40px; /* Padding around the content */
+  .sidenav-container {
+      background-color: #fcc168; /* Background color of the sidebar */
+      border-right: 1px solid #829E8E; /* Border on the right side of the sidebar */
+  }
+
+  .sidenav-logo {
+      width: 100px; /* Adjust the width of the logo as needed */
+  }
+
+  .sidenav-app-name {
+      font-size: 20px; /* Font size of the application name */
+      margin-top: 10px; /* Margin at the top of the application name */
+  }
+
+  .sidenav-menu-bar {
+      margin-top: 20px; /* Margin at the top of the menu bar */
+      background-color:#829E8E
+  }
+  .content-container {
+      padding: 20px; /* Padding around the content */
+      min-height: calc(100vh - 64px); /* Calculate the minimum height of the content */
+      background-color: #829E8E; /* Background color of the content */
+  }
+
+  /* Homepage.css */
+  /* Homepage.css */
+  .topbookContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+
+  .bookContainer {
+    text-align: center;
+    margin-bottom: 30px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+  }
+
+  .bookContainer img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .bookContainer p {
+    margin-top: 5px;
+    font-size: 14px;
+    word-wrap: break-word;
+    text-align: center; /* Center the text horizontally */
+  }
+
+
+  * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    h1, h2 {
+      font-family: 'Merriweather', serif;
+    }
+    body {
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    :root {
+      --primary-color: #005f73;
+      --secondary-color: #0a9396;
+      --accent-color: #94d2bd;
+      --light-background: #e9d8a6;
+      --dark-text: #07090a;
+    }
+
+    table {
+      width: 90%;
+      border-collapse: collapse;
+      border: solid 5px #d7ad52; /* Thicker outer border */
+    }
+
+    thead th {
+      background-color: #eaa742; /* Background color of table header */
+      color: #130e05; /* Text color of table header */
+      padding: 12px;
+      text-align: center;
+      border: solid 5px #eaa742; /* Border thickness and color */
+      border-top: solid 5px #eaa742; /* Ensure there's a top border */
+      border-bottom: solid 5px #eaa742; /* Ensure there's a bottom border */
+  }
+
+  thead th,
+  tbody td {
+      color: #130e05; /* Text color of table header */
+      padding: 12px;
+      text-align: center;
+      border: solid 3px #eaa742; /* Border around each cell */
+  }
+
+  th, td {
+      padding: 12px;
+      text-align: center;
+      border-left: solid 5px #eaa742; /* Increase border width for left border */
+      border-right: solid 5px #eaa742; /* Increase border width for right border */
+    }
+    
+    tr:nth-child(even) {
+      background-color: #f1f09d;
+      border : solid 3px #eaa742;
+  }
+
+  tr:nth-child(odd) {
+      background-color: #f3d596;
+      border : solid 3px #eaa742;
+  }
+
+
+  tr:hover {background-color: #f4a536;}
+
+    input[type=text], button {
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      margin: 10px 0;
+    }
+    button {
+      background-color: var(--primary-color);
+      color: white;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: var(--secondary-color);
+    }
+
+    footer {
+      background-color: var(--primary-color);
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    .statistics-container {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+  
+  .statistic-box {
+      display: flex;
+      align-items: center;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      width: 250px;
+      text-align: left;
+  }
+  
+  .statistic-box > div {
+      flex: 1; /* Fill remaining space */
+  }
+  
+  .statistic-box h3 {
+      margin: 0; /* Remove margin */
+  }
+    
+  .statistic-box p {
+      font-size: 24px;
+      font-weight: bold;
+  }
+  
+  .statistic-box .icon {
+      font-size: 40px;
+      margin-left: 20px;
+  }
+
+  .totalBooks {
+    color: #e56b4a;
+    border-color: #e56b4a;
+  }
+
+  .totalBooks h3 {
+    color: #e56b4a;
+  }
+
+  .totalUsers {
+    color: #1d63e6;
+    border-color: #1d63e6;
+  }
+
+  .totalUsers h3 {
+    color: #1d63e6;
+  }
+
+  .return {
+    color: #e61db4;
+    border-color: #e61db4;
+  }
+
+  .return h3 {
+    color: #e61db4;
+  }
+
+  .borrow {
+    color: #31cb0f;
+    border-color: #31cb0f;
+  }
+
+  .borrow h3 {
+    color: #31cb0f;
+  }
+
+  @media (max-width: 1208px) {
+    .statistic-box {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .statistic-box .icon {
+      font-size: 40px;
+      margin-left: 0px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .topbookContainer {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 30px;
+    }
+
+    .bookContainer img {
+      width: 100px;
+      height: 150px;
+    }
+  }
+}
