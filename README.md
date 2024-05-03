@@ -11,18 +11,13 @@ Make sure you have Node.js and npm (Node Package Manager) installed on your syst
 1. First, clone the repository:
 
 ```bash
-   git clone https://github.com/galvdat-hthieu/vgupe2024_team4.git
+   git clone https://github.com/Hailu03/Online-Library-Management.git
 ```
 
-2. Change branch to Hailu
+2. Change to the app directory
 ```bash
-   git checkout Hailu
-```
-
-3. Change to the app directory
-```bash
-  cd vgupe2024_team4/AdminFrontEnd
-cd vgupe2024_team4/lib-frontend
+  cd Online-Library-Management/AdminFrontEnd
+  cd Online-Library-Management/lib-frontend
 ```
 
 4. Install dependencies
